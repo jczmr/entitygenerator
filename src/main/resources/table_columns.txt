@@ -1,0 +1,7 @@
+first_name	VARCHAR2
+last_name	VARCHAR2
+email	VARCHAR2 
+db_update	NVARCHAR2
+birth_date	DATE
+state	CHAR
+product_indicator_code      NUMBER

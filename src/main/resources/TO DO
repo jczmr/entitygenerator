@@ -1,0 +1,8 @@
+TO DO
+
+- Separate in the GenerateEntity class, the getJavaDataTypeFromOracleDataType method, to consider more than a single database data type.
+- Doesn't generate properly camel case names, when column names, are compound words. Now is working with words separated by underscore. 
+- Instead of reading data from a file, try getting the table's metadata directly through a database connection.
+- Check for Data types that map to database data types in Java applications that use JDBC for the required Database. 
+  This example use Oracle 11g mapping as reference based on https://docs.oracle.com/cd/E11882_01/java.112/e10587/datamap.htm#JJPUB24092
+
